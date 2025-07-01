@@ -1,0 +1,22 @@
+# Ignore image datasets
+Mydataset/
+Input_images/
+output_images/
+*.jpg
+*.jpeg
+*.png
+
+# Ignore model files
+*.pt
+*.safetensors
+*.ckpt
+*.h5
+*.pkl
+
+# Ignore cache and logs
+__pycache__/
+*.log
+
+# Ignore system files
+.DS_Store
+Thumbs.db

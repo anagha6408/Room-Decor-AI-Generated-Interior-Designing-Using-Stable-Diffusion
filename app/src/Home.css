@@ -1,0 +1,99 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f7f8fa;
+  color: #333;
+}
+
+.container, .container-fluid {
+  max-width: 1200px;
+}
+
+/* Welcome Section */
+.welcome-section {
+  text-align: center;
+  padding: 50px 0;
+  background: linear-gradient(135deg, #6e8efb, #a777e3);
+  color: #fff;
+  border-radius: 8px;
+}
+
+
+
+.sub-title {
+  font-size: 1.2rem;
+  font-weight: 400;
+  max-width: 600px;
+  margin: 0 auto 1.5rem;
+  color: #f0e9ff;
+}
+
+.cta-button {
+  font-size: 1.1rem;
+  padding: 12px 24px;
+  font-weight: 600;
+  background-color: #1d4ed8;
+  border: none;
+  transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+  background-color: #1e40af;
+}
+
+/* Section Title */
+.section-title {
+  font-size: 2rem;
+  font-weight: 600;
+  margin: 2.5rem 0 1rem;
+  text-align: center;
+  color: #333;
+}
+
+/* Styles Section */
+.style-card, .sample-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border: none;
+  overflow: hidden;
+  border-radius: 8px;
+}
+
+.style-card:hover, .sample-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+.style-image, .sample-image {
+  height: 220px;
+  object-fit: cover;
+  border-radius: 8px 8px 0 0;
+}
+
+.style-title {
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: #444;
+}
+
+.style-description {
+  font-size: 0.95rem;
+  color: #666;
+}
+
+/* Footer */
+.footer {
+  background-color: #f1f3f5;
+  text-align: center;
+  color: #666;
+}
+
+.footer-text {
+  font-size: 0.9rem;
+  margin: 0;
+}
+
+.footer-social {
+  font-size: 0.9rem;
+  margin-top: 5px;
+  color: #444;
+}

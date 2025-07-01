@@ -1,0 +1,92 @@
+/* Full-page gradient background */
+.generate-background {
+  background: linear-gradient(135deg, #6e8efb, #a777e3);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Card styling */
+.container-card {
+  border-radius: 8px;
+  background-color: white;
+  max-width: 800px;
+  width: 100%;
+}
+
+/* Headings and text */
+h1 {
+  font-weight: 700;
+}
+
+.text-muted {
+  color: #6c757d !important;
+}
+
+.fw-semibold {
+  font-weight: 600;
+  color: #333;
+}
+
+/* Image previews */
+.image-preview, .default-preview {
+  max-height: 240px;
+  min-height: 240px;
+  width: auto;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-top: 1rem;
+  object-fit: contain;
+}
+
+/* Button styling */
+.generate-button {
+  align-items: center;
+  appearance: none;
+  background-image: radial-gradient(100% 100% at 100% 0, #5adaff 0, #5468ff 100%);
+  border: 0;
+  border-radius: 6px;
+  box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, rgba(58, 65, 111, 0.5) 0 -3px 0 inset;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: "JetBrains Mono", monospace;
+  height: 48px;
+  justify-content: center;
+  line-height: 1;
+  padding: 0 16px;
+  transition: box-shadow 0.15s, transform 0.15s;
+  font-size: 18px;
+}
+
+.generate-button:focus {
+  box-shadow: #3c4fe0 0 0 0 1.5px inset, rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+}
+
+.generate-button:hover {
+  box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+  transform: translateY(-2px);
+}
+
+.generate-button:active {
+  box-shadow: #3c4fe0 0 3px 7px inset;
+  transform: translateY(2px);
+}
+
+/* Error alert */
+.alert {
+  font-size: 0.95rem;
+}
+
+/* File input customization */
+.file-input {
+  border-radius: 5px;
+  padding: 0.45rem;
+  border: 1px solid #ddd;
+}
+
+.gap2rem {
+  gap: 2rem;
+}
